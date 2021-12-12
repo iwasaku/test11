@@ -11,8 +11,8 @@ var ASSETS = {
 };
 
 const sampleTable = [
-    new Howl({ src: "https://iwasaku.github.io/test11/UT-404/resource/Zihou01-1.mp3", }),
-    new Howl({ src: "https://iwasaku.github.io/test11/UT-404/resource/Zihou01-2.mp3", }),
-    new Howl({ src: "https://iwasaku.github.io/test11/UT-404/resource/Zihou01-3.mp3", }),
-    new Howl({ src: "https://iwasaku.github.io/test11/UT-404/resource/Zihou01-4.mp3", }),
+    new Howl({ src: "https://iwasaku.github.io/test11/UT-404/resource/t01_01.mp3", }),
+    new Howl({ src: "https://iwasaku.github.io/test11/UT-404/resource/t01_02.mp3", }),
+    new Howl({ src: "https://iwasaku.github.io/test11/UT-404/resource/t01_03.mp3", }),
+    new Howl({ src: "https://iwasaku.github.io/test11/UT-404/resource/t01_04.mp3", }),
 ]
