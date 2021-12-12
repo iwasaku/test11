@@ -7,9 +7,12 @@ var ASSETS = {
     spritesheet: {
     },
     sound: {
-        "test1": "https://iwasaku.github.io/test11/UT-404/resource/Zihou01-1.mp3",
-        "test2": "https://iwasaku.github.io/test11/UT-404/resource/Zihou01-1.mp3",
-        "test3": "https://iwasaku.github.io/test11/UT-404/resource/Zihou01-1.mp3",
-        "test4": "https://iwasaku.github.io/test11/UT-404/resource/Zihou01-1.mp3",
     },
 };
+
+const sampleTable = [
+    new Howl({ src: "https://iwasaku.github.io/test11/UT-404/resource/Zihou01-1.mp3", }),
+    new Howl({ src: "https://iwasaku.github.io/test11/UT-404/resource/Zihou01-2.mp3", }),
+    new Howl({ src: "https://iwasaku.github.io/test11/UT-404/resource/Zihou01-3.mp3", }),
+    new Howl({ src: "https://iwasaku.github.io/test11/UT-404/resource/Zihou01-4.mp3", }),
+]
