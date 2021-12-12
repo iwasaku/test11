@@ -25,8 +25,8 @@ const padDefineTable = [
     // Track 1
     { tabId: 0, text: "0", gridX: 0, gridY: 0, sampleId: 0, },
     { tabId: 0, text: "1", gridX: 1, gridY: 0, sampleId: 1, },
-    { tabId: 0, text: "2", gridX: 2, gridY: 0, sampleId: 0, },
-    { tabId: 0, text: "3", gridX: 3, gridY: 0, sampleId: 1, },
+    { tabId: 0, text: "2", gridX: 2, gridY: 0, sampleId: 2, },
+    { tabId: 0, text: "3", gridX: 3, gridY: 0, sampleId: 3, },
 
     { tabId: 0, text: "4", gridX: 0, gridY: 1, sampleId: 2, },
     { tabId: 0, text: "5", gridX: 1, gridY: 1, sampleId: 3, },
