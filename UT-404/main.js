@@ -59,40 +59,40 @@ const padDefineTable = [
     { tabId: 0, text: "一", gridX: 3, gridY: 6, sampleId: 27, },
 
     // Track 2
-    { tabId: 1, text: "0", gridX: 0, gridY: 0, sampleId: 0, },
-    { tabId: 1, text: "1", gridX: 1, gridY: 0, sampleId: 1, },
-    { tabId: 1, text: "2", gridX: 2, gridY: 0, sampleId: 0, },
-    { tabId: 1, text: "3", gridX: 3, gridY: 0, sampleId: 1, },
+    { tabId: 1, text: "恋", gridX: 0, gridY: 0, sampleId: 0, },
+    { tabId: 1, text: "告", gridX: 1, gridY: 0, sampleId: 1, },
+    { tabId: 1, text: "色", gridX: 2, gridY: 0, sampleId: 2, },
+    { tabId: 1, text: "サ", gridX: 3, gridY: 0, sampleId: 3, },
 
-    { tabId: 1, text: "4", gridX: 0, gridY: 1, sampleId: 2, },
-    { tabId: 1, text: "5", gridX: 1, gridY: 1, sampleId: 3, },
-    { tabId: 1, text: "6", gridX: 2, gridY: 1, sampleId: 2, },
-    { tabId: 1, text: "7", gridX: 3, gridY: 1, sampleId: 3, },
+    { tabId: 1, text: "ね", gridX: 0, gridY: 1, sampleId: 4, },
+    { tabId: 1, text: "抜", gridX: 1, gridY: 1, sampleId: 5, },
+    { tabId: 1, text: "み", gridX: 2, gridY: 1, sampleId: 6, },
+    { tabId: 1, text: "コ", gridX: 3, gridY: 1, sampleId: 7, },
 
-    { tabId: 1, text: "8", gridX: 0, gridY: 2, sampleId: 0, },
-    { tabId: 1, text: "9", gridX: 1, gridY: 2, sampleId: 1, },
-    { tabId: 1, text: "10", gridX: 2, gridY: 2, sampleId: 0, },
-    { tabId: 1, text: "11", gridX: 3, gridY: 2, sampleId: 1, },
+    { tabId: 1, text: "世", gridX: 0, gridY: 2, sampleId: 8, },
+    { tabId: 1, text: "ア", gridX: 1, gridY: 2, sampleId: 9, },
+    { tabId: 1, text: "急", gridX: 2, gridY: 2, sampleId: 10, },
+    { tabId: 1, text: "臨", gridX: 3, gridY: 2, sampleId: 11, },
 
-    { tabId: 1, text: "12", gridX: 0, gridY: 3, sampleId: 0, },
-    { tabId: 1, text: "13", gridX: 1, gridY: 3, sampleId: 1, },
-    { tabId: 1, text: "14", gridX: 2, gridY: 3, sampleId: 0, },
-    { tabId: 1, text: "15", gridX: 3, gridY: 3, sampleId: 1, },
+    { tabId: 1, text: "恋", gridX: 0, gridY: 3, sampleId: 12, },
+    { tabId: 1, text: "速", gridX: 1, gridY: 3, sampleId: 22, },
+    { tabId: 1, text: "効", gridX: 2, gridY: 3, sampleId: 23, },
+    { tabId: 1, text: "共", gridX: 3, gridY: 3, sampleId: 24, },
 
-    { tabId: 1, text: "16", gridX: 0, gridY: 4, sampleId: 0, },
-    { tabId: 1, text: "17", gridX: 1, gridY: 4, sampleId: 0, },
-    { tabId: 1, text: "18", gridX: 2, gridY: 4, sampleId: 0, },
-    { tabId: 1, text: "19", gridX: 3, gridY: 4, sampleId: 0, },
+    { tabId: 1, text: "連", gridX: 0, gridY: 4, sampleId: 13, },
+    { tabId: 1, text: "特", gridX: 1, gridY: 4, sampleId: 25, },
+    { tabId: 1, text: "冒", gridX: 2, gridY: 4, sampleId: 26, },
+    { tabId: 1, text: "セ", gridX: 3, gridY: 4, sampleId: 27, },
 
-    { tabId: 1, text: "20", gridX: 0, gridY: 5, sampleId: 0, },
-    { tabId: 1, text: "21", gridX: 1, gridY: 5, sampleId: 0, },
-    { tabId: 1, text: "22", gridX: 2, gridY: 5, sampleId: 0, },
-    { tabId: 1, text: "23", gridX: 3, gridY: 5, sampleId: 0, },
+    { tabId: 1, text: "ア", gridX: 0, gridY: 5, sampleId: 14, },
+    { tabId: 1, text: "我", gridX: 1, gridY: 5, sampleId: 15, },
+    { tabId: 1, text: "あ", gridX: 2, gridY: 5, sampleId: 16, },
+    { tabId: 1, text: "も", gridX: 3, gridY: 5, sampleId: 17, },
 
-    { tabId: 1, text: "24", gridX: 0, gridY: 6, sampleId: 0, },
-    { tabId: 1, text: "25", gridX: 1, gridY: 6, sampleId: 0, },
-    { tabId: 1, text: "26", gridX: 2, gridY: 6, sampleId: 0, },
-    { tabId: 1, text: "27", gridX: 3, gridY: 6, sampleId: 0, },
+    { tabId: 1, text: "抜", gridX: 0, gridY: 6, sampleId: 18, },
+    { tabId: 1, text: "ト", gridX: 1, gridY: 6, sampleId: 19, },
+    { tabId: 1, text: "ス", gridX: 2, gridY: 6, sampleId: 20, },
+    { tabId: 1, text: "臨", gridX: 3, gridY: 6, sampleId: 21, },
 
     // Track 3
     { tabId: 2, text: "0", gridX: 0, gridY: 0, sampleId: 0, },
@@ -415,7 +415,8 @@ phina.define('prjButton', {
         this.fill = this.fillColor;
 
         this.status = PAD_STATUS.WAIT;
-        this.sample = sampleTable[pad.sampleId];
+        if (pad.sampleId >= 0) this.sample = sampleTable[pad.tabId][pad.sampleId];
+        else this.sample = null;
         this.tabId = pad.tabId;
 
         // 見た目の位置合わせ
