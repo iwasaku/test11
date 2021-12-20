@@ -100,14 +100,14 @@ const padDefineTable = [
     { tabId: 2, text: "は", gridX: 3, gridY: 4, sampleId: 19, },
 
     { tabId: 2, text: "そ", gridX: 0, gridY: 5, sampleId: 20, },
-    { tabId: 2, text: "天", gridX: 1, gridY: 5, sampleId: 21, },
-    { tabId: 2, text: "日", gridX: 2, gridY: 5, sampleId: 22, },
-    { tabId: 2, text: "ご", gridX: 3, gridY: 5, sampleId: 23, },
+    { tabId: 2, text: "日", gridX: 1, gridY: 5, sampleId: 21, },
+    { tabId: 2, text: "ご", gridX: 2, gridY: 5, sampleId: 22, },
+    { tabId: 2, text: "日", gridX: 3, gridY: 5, sampleId: 23, },
 
-    { tabId: 2, text: "日", gridX: 0, gridY: 6, sampleId: 24, },
-    { tabId: 2, text: "ば", gridX: 1, gridY: 6, sampleId: 25, },
-    { tabId: 2, text: "ス", gridX: 2, gridY: 6, sampleId: 26, },
-    { tabId: 2, text: "そ", gridX: 3, gridY: 6, sampleId: 27, },
+    { tabId: 2, text: "ば", gridX: 0, gridY: 6, sampleId: 24, },
+    { tabId: 2, text: "ス", gridX: 1, gridY: 6, sampleId: 25, },
+    { tabId: 2, text: "そ", gridX: 2, gridY: 6, sampleId: 26, },
+    { tabId: 2, text: "行", gridX: 3, gridY: 6, sampleId: 27, },
 
     // Track 4
     { tabId: 3, text: "チ", gridX: 0, gridY: 0, sampleId: 0, },
