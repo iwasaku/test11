@@ -1,1 +1,0 @@
-const TYPE_STR = ' S.S.S.';
