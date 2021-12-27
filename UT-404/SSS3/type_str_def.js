@@ -1,0 +1,1 @@
+const TYPE_STR = 'Stealth Structure Stage';
