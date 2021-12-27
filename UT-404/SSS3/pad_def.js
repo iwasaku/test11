@@ -69,7 +69,7 @@ const padDefineTable = [
     { tabId: 1, text: "Ｈ", gridX: 3, gridY: 5, sampleId: 23, },
 
     { tabId: 1, text: "Ｓ", gridX: 0, gridY: 6, sampleId: 24, },
-    { tabId: 1, text: "vs", gridX: 1, gridY: 6, sampleId: 25, },
+    { tabId: 1, text: "Ｖ", gridX: 1, gridY: 6, sampleId: 25, },
     { tabId: 1, text: "Ｖ", gridX: 2, gridY: 6, sampleId: 26, },
     { tabId: 1, text: "弱", gridX: 3, gridY: 6, sampleId: 27, },
 
@@ -94,7 +94,7 @@ const padDefineTable = [
     { tabId: 2, text: "雨", gridX: 2, gridY: 3, sampleId: 14, },
     { tabId: 2, text: "揺", gridX: 3, gridY: 3, sampleId: 15, },
 
-    { tabId: 2, text: "89", gridX: 0, gridY: 4, sampleId: 16, },
+    { tabId: 2, text: "８", gridX: 0, gridY: 4, sampleId: 16, },
     { tabId: 2, text: "ミ", gridX: 1, gridY: 4, sampleId: 17, },
     { tabId: 2, text: "な", gridX: 2, gridY: 4, sampleId: 18, },
     { tabId: 2, text: "リ", gridX: 3, gridY: 4, sampleId: 19, },
@@ -141,7 +141,7 @@ const padDefineTable = [
     { tabId: 3, text: "慣", gridX: 3, gridY: 5, sampleId: 23, },
 
     { tabId: 3, text: "エ", gridX: 0, gridY: 6, sampleId: 24, },
-    { tabId: 3, text: "ど", gridX: 1, gridY: 6, sampleId: 25, },
+    { tabId: 3, text: "空", gridX: 1, gridY: 6, sampleId: 25, },
     { tabId: 3, text: "メ", gridX: 2, gridY: 6, sampleId: 26, },
     { tabId: 3, text: "僕", gridX: 3, gridY: 6, sampleId: 27, },
 ];
