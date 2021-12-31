@@ -12,7 +12,7 @@ const padDefineTable = [
     // Track 1
     { tabId: 0, text: "デ", gridX: 0, gridY: 0, sampleId: 0, },
     { tabId: 0, text: "パ", gridX: 1, gridY: 0, sampleId: 1, },
-    { tabId: 0, text: "ラジ", gridX: 2, gridY: 0, sampleId: 2, },
+    { tabId: 0, text: "ラ", gridX: 2, gridY: 0, sampleId: 2, },
     { tabId: 0, text: "フ", gridX: 3, gridY: 0, sampleId: 3, },
 
     { tabId: 0, text: "ラ", gridX: 0, gridY: 1, sampleId: 4, },
