@@ -1,3 +1,10 @@
+const tabDefineTable = [
+    { tabId: 0, text: "T1", gridX: 0, gridY: -1, sampleId: -1, },
+    { tabId: 1, text: "T2", gridX: 1, gridY: -1, sampleId: -1, },
+    { tabId: 2, text: "T3", gridX: 2, gridY: -1, sampleId: -1, },
+    { tabId: 3, text: "T4", gridX: 3, gridY: -1, sampleId: -1, },
+];
+
 //gridX:0~3
 //gridY:0~6
 const padDefineTable = [

@@ -12,13 +12,6 @@ let group0 = null;
 var tabButtonArray = [];
 var padButtonArray = [];
 
-const tabDefineTable = [
-    { tabId: 0, text: "T1", gridX: 0, gridY: -1, sampleId: -1, },
-    { tabId: 1, text: "T2", gridX: 1, gridY: -1, sampleId: -1, },
-    { tabId: 2, text: "T3", gridX: 2, gridY: -1, sampleId: -1, },
-    { tabId: 3, text: "T4", gridX: 3, gridY: -1, sampleId: -1, },
-];
-
 // ローディング画面
 phina.define('LoadingScene', {
     superClass: 'DisplayScene',
@@ -142,9 +135,12 @@ phina.define('MainScene', {
         group0 = DisplayElement().addChildTo(this);
 
         // タブ設定
-        for (let ii = 0; ii < 4; ii++) {
+        let tabLen = tabDefineTable.length;
+        for (let ii = 0; ii < tabLen; ii++) {
             let tab = tabDefineTable[ii];
-            let tabButton = prjButton(tab).addChildTo(group0);
+            let xofs = 0;
+            if (tabLen === 5) xofs = -22;
+            let tabButton = prjButton(tab, PAD_SIZE * (4 / tabLen), PAD_SIZE, xofs).addChildTo(group0);
             tabButton.onpointstart = function () {
                 if (tabButton.status !== PAD_STATUS.WAIT) return;
                 oldTabId = nowTabId;
@@ -162,7 +158,7 @@ phina.define('MainScene', {
         // PAD設定
         for (let ii = 0; ii < padDefineTable.length; ii++) {
             let pad = padDefineTable[ii];
-            let padButton = prjButton(pad).addChildTo(group0);
+            let padButton = prjButton(pad, PAD_SIZE, PAD_SIZE, 0).addChildTo(group0);
             padButton.onpointstart = function () {
                 if (padButton.status !== PAD_STATUS.WAIT) return;
                 padButton.status = PAD_STATUS.PUSH;
@@ -242,21 +238,21 @@ phina.main(function () {
  */
 phina.define('prjButton', {
     superClass: 'RectangleShape',
-    init: function (pad) {
+    init: function (pad, xsize, ysize, xofs) {
         this.superInit({
-            width: PAD_SIZE,
-            height: PAD_SIZE,
+            width: xsize,
+            height: ysize,
             cornerRadius: 10,
             stroke: 'black',
         });
         this.label = Label({
             text: pad.text + "",
-            fontSize: PAD_SIZE * 0.8,
+            fontSize: xsize * 0.8,
             fontFamily: "misaki_gothic",
             fill: 'black',
         }).addChildTo(this);
-        this.x = 152 + pad.gridX * (PAD_SIZE + 8);
-        this.y = 300 + pad.gridY * (PAD_SIZE + 8);
+        this.x = 152 + xofs + pad.gridX * (xsize + 8);
+        this.y = 300 + pad.gridY * (ysize + 8);
         this.alpha = 1.0;
         this.interactive = true;
 
@@ -264,6 +260,7 @@ phina.define('prjButton', {
         if (pad.tabId === 1) this.fillColor = 'lightblue';
         if (pad.tabId === 2) this.fillColor = 'yellowgreen';
         if (pad.tabId === 3) this.fillColor = 'yellow';
+        if (pad.tabId === 4) this.fillColor = 'pink';
         this.fill = this.fillColor;
 
         this.status = PAD_STATUS.WAIT;
